@@ -1,0 +1,178 @@
+.login-signup {
+    background-color: $clr2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    .container{
+        background-color: $clr4;
+        padding: 30px;
+        margin-top: 30px;
+        border-radius: 5px;
+        height: 530px;
+    }
+    
+    
+    // display: flex;
+    // flex-direction: column;
+    // min-height: 100vh;
+
+    // .login,
+    // .signup {
+    //     flex-grow: 1;
+    //     text-align: center;
+
+    //     h2 {
+    //         font-family: montserrat;
+    //         margin-top: 50px;
+    //         font-size: 3rem;
+    //         color: $clr1;
+    //     }
+
+    //     form {
+    //         display: flex;
+    //         flex-direction: column;
+    //         align-items: center;
+    //         justify-content: center;
+
+    //         label{
+    //             div:not(.profile-img){
+    //                 display: flex;
+    //                 align-items: center;
+    //                 justify-content: center;
+    //                 position: absolute;
+    //                 background-color: $all4;
+    //                 height: 32px;
+    //                 width: 32px;
+    //                 svg{
+    //                     color: $clr2;
+    //                 }
+    //             }
+
+    //             input{
+    //                 padding-left:40px;
+    //                 border-color: $all4;
+    //                 width: 300px;
+                
+    //             }
+    //         }
+    //     }
+
+    //     p {
+    //         max-width: 100%;
+    //         font-weight: 900;
+    //         color: $clr1;
+    //     }
+
+    //     span {
+    //         color: $clr2;
+    //     }
+
+    //     button:not(.facebook):not(.google) {
+    //         padding: 5px 20px;
+    //         background-color: $allC;
+    //         border: none;
+    //         font-size: 1rem;
+    //         cursor: pointer;
+    //         transition: .3s;
+    //         color: $clr1;
+
+    //         &.submit {
+    //             width: 150px;
+    //             font-size: 1.5rem;
+    //         }
+
+    //         &:hover {
+    //             background-color: $clr6;
+    //         }
+    //     }
+
+    //     input {
+    //         margin-bottom: 40px;
+    //         font-size: 1.5rem;
+    //         border: 1px solid $clr1;
+    //     }
+    // }
+
+    // .signup {
+    //     img {
+    //         width: 100px;
+    //         margin-bottom: 10px;
+    //     }
+    // }
+
+    // .main-container {
+    //     flex-grow: 1;
+
+    //     .profile {
+
+    //         margin-top: 50px;
+
+    //         .user-messege {
+    //             text-align: center;
+
+    //             p {
+    //                 max-width: 100%;
+    //             }
+
+
+    //         }
+
+    //         button {
+    //             padding: 5px 20px;
+    //             background-color: $allC;
+    //             border: none;
+    //             font-size: 1rem;
+    //             cursor: pointer;
+    //             transition: .3s;
+    //             margin: 0 10px;
+
+    //             &:hover {
+    //                 background-color: $clr6;
+    //             }
+
+    //             &.logout {
+    //                 margin-top: 30px;
+    //             }
+    //         }
+
+    //         img {
+    //             width: 100px;
+    //             height: 100px;
+    //             border-radius: 50%;
+    //             margin-right: 10px;
+    //             object-fit: cover;
+
+
+    //         }
+
+    //         h2 {
+    //             font-family: montserrat;
+    //             color: $clr1;
+    //         }
+
+
+
+
+    //     }
+
+    // }
+
+}
+
+
+// @media (max-width:760px) {
+//     .login-signup .main-container .profile .template-preview-user{
+
+//         text-align: center;
+
+//         .btns {
+//             flex-direction: column;
+//             align-items: center;
+            
+//             button {
+//                 margin-bottom: 10px;
+//             }
+//         }
+//     }
+// }

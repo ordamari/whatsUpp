@@ -1,0 +1,34 @@
+.chat-info {
+    flex-grow: 1;
+    background-image: url("../../imgs/bgc.png");
+    height: 100%;
+    background-position: fixed;
+    background-color: #0d1418;
+    background-blend-mode: soft-light;
+    display: flex;
+    flex-direction: column;
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.281);
+    }
+
+    ::-webkit-scrollbar-button {
+        background: transparent;
+        height: 5px;
+    }
+}
+
+
+@media(max-width:900px) {
+    .chat-info {
+        height: 100%;
+
+        &.close {
+            display: none;
+        }
+    }
+}

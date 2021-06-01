@@ -1,0 +1,83 @@
+.chat-preview {
+
+    padding-bottom: 10px;
+    padding-right: 15px;
+    color: $clr6;
+    cursor: pointer;
+    width: 100%;
+    &:hover {
+        background-color: $clr7;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 15px;
+        margin-left: 15px;
+        transform: translateY(10px);
+
+    }
+
+    
+
+    .info {
+        border-top: 1px solid $clr2;
+        padding-top: 10px;
+        width: calc(100% - 80px) ;
+
+        span {
+            font-size: 17px;
+        }
+
+        .date {
+            color: $clr5;
+            font-size: 12px;
+        }
+
+        .msg {
+
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: $clr5;
+            display: flex;
+            width: 100%;
+            
+            span {
+                width: 100%;
+                font-size: 14px;
+                position: relative;
+                flex-grow: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .new-msgs {
+                background-color: $clr8;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+    
+        }
+    }
+
+
+    &:first-child {
+        .info {
+            border-top: none;
+        }
+    }
+
+    &.choosen {
+        background-color: $clr4;
+    }
+
+   
+}

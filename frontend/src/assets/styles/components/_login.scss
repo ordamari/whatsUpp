@@ -1,0 +1,91 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $clr6;
+
+    p span{
+        color: $clr8;
+        font-weight: 800;
+    }
+
+    .Login-google{
+        button{
+            font-size: 20px;
+            background-color:#4285F4;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            color: $clr6;
+
+            svg{
+                background-color: $clr6;
+                margin-right: 7px;
+                font-size: 35px;
+
+            }
+        }
+    }
+
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+        label{
+            width: 100%;
+            position: relative;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            svg{
+                position: absolute;
+                color: $clr5;
+                top: 8px;
+                left: 15px;
+            }
+
+            input{
+                color: $clr6;
+                font-size: 20px;
+                width: 100%;
+                background-color: $clr2;
+                padding: 10px 0 10px 50px;
+                border-radius: 30px;
+                margin-bottom: 20px;
+                border: none;
+
+                &::placeholder{
+                    color: $clr5;
+                }
+            }
+
+            img{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-bottom: 30px;
+            }
+        }
+
+        button{
+            color: $clr6;
+            background-color: $clr8;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+        }
+    }
+}

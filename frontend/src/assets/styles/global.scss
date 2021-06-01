@@ -1,0 +1,34 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+
+// Components
+@import "components/chatList";
+@import "components/chatPreview";
+@import "components/chatInfo";
+@import "components/chatInfoMsgs";
+@import "components/chatInfoUserData";
+@import "components/chatInfoNoChat";
+@import "components/chatInput";
+@import "components/login";
+@import "components/emojiKeyboard";
+
+
+// views
+@import "views/home";
+@import "views/loginSignup";
+
+
+
+
+
+
+
+

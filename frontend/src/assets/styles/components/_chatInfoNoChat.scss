@@ -1,0 +1,26 @@
+.chat-info.close {
+    background-image: none;
+    background-color: $clr9;
+
+    .no-chat {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: $clr6;
+        margin-top: 100px;
+
+        img {
+            width: 335px;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+        p {
+            color: $clr5;
+        }
+    }
+}

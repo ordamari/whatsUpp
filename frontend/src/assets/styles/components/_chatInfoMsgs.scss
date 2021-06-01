@@ -1,0 +1,85 @@
+.chat-info .chat {
+    .w100 {
+        width: 100%;
+    }
+
+    order: 2;
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow-y: scroll;
+
+    .date-container {
+        background-color: $clr1;
+        color: $clr6;
+        display: inline-block;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 3px;
+    }
+
+    .date-chats {
+        width: 100%;
+
+        .chat-pop {
+
+            max-width: 70%;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 3px;
+            display: flex;
+            flex-direction: column;
+            color: $clr6;
+            font-size: 14.2px;
+            align-items: flex-start;
+
+            .marked{
+                background-color: $clr6;
+                color: black;
+            }
+
+            &.tailted {
+                margin-top: 12px;
+
+            }
+
+            .time {
+                color: $clr5;
+                align-self: flex-end;
+                font-size: 11px;
+            }
+
+            &.him {
+                margin-left: 5%;
+                background-color: $clr2;
+                position: relative;
+
+                .tail {
+                    position: absolute;
+                    top: 0;
+                    left: -9px;
+                    width: 0;
+                    height: 0;
+                    border-left: 15px solid transparent;
+                    border-top: 15px solid $clr2;
+                }
+            }
+
+            &.you {
+                margin-right: 5%;
+                background-color: $clr8;
+                align-self: flex-end;
+                position: relative;
+
+                .tail {
+                    position: absolute;
+                    top: 0;
+                    right: -9px;
+                    width: 0;
+                    height: 0;
+                    border-right: 15px solid transparent;
+                    border-top: 15px solid $clr8;
+                }
+            }
+        }
+    }
+}
